@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">RememberBook</string>
+    <string name="create_sample_data">create_sample_data</string>
+    <string name="delete_all_notes">delete_all_notes</string>
+    <string name="are_you_sure">Are your sure?</string>
+    <string name="all_deleted">All notes deleted</string>
 </resources>
