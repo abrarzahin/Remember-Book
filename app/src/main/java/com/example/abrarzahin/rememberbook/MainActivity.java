@@ -41,9 +41,8 @@ public class MainActivity extends AppCompatActivity
         });
 
         String [] from= {DBOpenHelper.NOTE_TEXT};
-        int [] to= {android.R.id.text1};
-        cursorAdapter = new SimpleCursorAdapter(this,
-                android.R.layout.simple_list_item_1,null,from,to,0);
+        int [] to= {R.id.tvNote};
+        cursorAdapter = new NotesCursorAdapter(this,null,0);
         ListView list= (ListView) findViewById(android.R.id.list);
         list.setAdapter(cursorAdapter);
 
@@ -104,7 +103,7 @@ public class MainActivity extends AppCompatActivity
     }
 
     private void insertSampleData() {
-        insertNote("\n");
+
         insertNote("Simple note");
         insertNote("Multi-line\nnote");
         insertNote("Very long note with a lot of text that exceeds the width of the screen");
