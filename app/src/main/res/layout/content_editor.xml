@@ -14,8 +14,9 @@
         android:layout_width="381dp"
         android:layout_height="506dp"
         android:ems="10"
-        android:inputType="textPersonName"
+        android:inputType="textMultiLine|textCapSentences"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="2dp" />
+        tools:layout_editor_absoluteY="2dp"
+        android:hint="@string/enter_note_here" />
 </android.support.constraint.ConstraintLayout>

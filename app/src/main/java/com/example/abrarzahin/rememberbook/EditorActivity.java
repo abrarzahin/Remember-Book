@@ -70,7 +70,7 @@ public class EditorActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
         int id = item.getItemId();
 
-        switch (item.getItemId()) {
+        switch (id) {
             case android.R.id.home:
                 finishEditing();
                 break;

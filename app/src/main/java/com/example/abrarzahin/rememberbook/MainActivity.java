@@ -117,9 +117,8 @@ public class MainActivity extends AppCompatActivity
 
     private void insertSampleData() {
 
-        insertNote("Simple note");
-        insertNote("Multi-line\nnote");
-        insertNote("Very long note with a lot of text that exceeds the width of the screen");
+        insertNote("New note");
+
         restartLoader();
     }
 
